@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """print an image of baby face with a rectangle around his face"""
 import cv2
-import numpy as np
 img = cv2.imread("images/baby.jpg")
 # top-left, bottom-right, color green, thickness
 cv2.rectangle(img, (500, 60), (800, 550), (0, 255, 0), 4)
